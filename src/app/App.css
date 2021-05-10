@@ -3,6 +3,10 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #f5f5f7;
+	/* font-family: 'Noto Sans', sans-serif;
+	font-family: 'Overpass Mono', monospace; */
+	font-family: 'Poppins', sans-serif;
 }
 
 code {
@@ -11,4 +15,85 @@ code {
 
 .App {
 	text-align: center;
+}
+
+/* --------------------- NAV BAR --------------------- */
+.nav-container {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	position: sticky;
+	display: grid;
+	grid-template-columns: auto 970px auto;
+	font-size: 20px;
+}
+
+.nav-content-container {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-edwardphan {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.nav-edwardphan span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	color: #3b77ea;
+}
+
+/* --------------------- HOME --------------------- */
+.home-container {
+	display: grid;
+	grid-template-columns: auto 970px auto;
+}
+
+.home-text {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.home-gradient-text {
+	font-family: 'Poppins', sans-serif;
+	font-weight: black;
+	font-size: 4rem;
+	font-weight: 900;
+	background-image: linear-gradient(45deg, #3b77ea, #9b42d4);
+	background-size: auto;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: -15px;
+}
+
+.home-description-text {
+	font-size: 2rem;
+}
+
+.home-logo-container {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	height: 50px;
+	width: 100%;
+}
+
+.home-logo-container img {
+	height: 100%;
+}
+
+/* --------------------- PROJECTS --------------------- */
+
+.projects-title {
+	font-size: 2rem;
+}
+
+.projects-title span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #3b77ea;
 }
