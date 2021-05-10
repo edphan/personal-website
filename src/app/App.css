@@ -7,6 +7,7 @@ body {
 	/* font-family: 'Noto Sans', sans-serif;
 	font-family: 'Overpass Mono', monospace; */
 	font-family: 'Poppins', sans-serif;
+	color: #222;
 }
 
 code {
@@ -55,11 +56,14 @@ code {
 .home-container {
 	display: grid;
 	grid-template-columns: auto 970px auto;
+	height: 100vh;
 }
 
-.home-text {
+.home-content {
+	margin-top: -20%;
 	grid-column-start: 2;
 	grid-column-end: 3;
+	align-self: center;
 }
 
 .home-gradient-text {
@@ -72,7 +76,6 @@ code {
 	background-repeat: repeat;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-bottom: -15px;
 }
 
 .home-description-text {
