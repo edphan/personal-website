@@ -21,7 +21,12 @@ function Nav() {
 						contact
 					</Link>
 				</div>
-				<div className='nav-darkmode'>dark mode</div>
+				<div className='nav-darkmode'>
+					<label class='form-switch'>
+						<input type='checkbox' id='form-switch'></input>
+						<i></i>Dark Mode
+					</label>
+				</div>
 			</div>
 		</div>
 	);
