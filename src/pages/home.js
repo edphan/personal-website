@@ -3,7 +3,7 @@ import linkedin from '../images/icons/LinkedIn-Logos/LI-In-Bug.png';
 
 function Home() {
 	return (
-		<div className='home-container'>
+		<div className='home-container' id='section-home'>
 			<div className='home-content'>
 				<div className='home-text'>
 					<h1 className='home-gradient-text'>hello world, I'm Edward</h1>

@@ -1,13 +1,26 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Nav() {
 	return (
 		<div className='nav-container'>
 			<div className='nav-content-container'>
 				<div className='nav-edwardphan'>
-					<span>//</span> Edward Phan
+					<Link activeClass='active' to='section-home' spy={true} smooth={true} duration={900}>
+						<span>//</span> Edward Phan
+					</Link>
 				</div>
-				<div className='nav-pages'>projects about contact</div>
+				<div className='nav-pages'>
+					<Link activeClass='active' to='section-projects' spy={true} smooth={true} duration={900}>
+						projects
+					</Link>
+					<Link activeClass='active' to='section-about' spy={true} smooth={true} duration={900}>
+						about
+					</Link>
+					<Link activeClass='active' to='section-contact' spy={true} smooth={true} duration={900}>
+						contact
+					</Link>
+				</div>
 				<div className='nav-darkmode'>dark mode</div>
 			</div>
 		</div>

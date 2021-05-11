@@ -1,9 +1,11 @@
 function Projects() {
 	return (
-		<div className='projects-container'>
-			<h2 className='projects-title'>
-				<span>//</span> projects
-			</h2>
+		<div className='projects-container' id='section-projects'>
+			<div className='projects-content'>
+				<h2 className='projects-title'>
+					<span>//</span> projects
+				</h2>
+			</div>
 		</div>
 	);
 }

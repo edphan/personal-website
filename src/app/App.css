@@ -62,10 +62,10 @@ code {
 }
 
 .home-content {
-	margin-top: -20%;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	align-self: center;
+	margin-top: -20%;
 }
 
 .home-gradient-text {
@@ -98,7 +98,15 @@ code {
 /* ----------------- PROJECTS ----------------- */
 
 .projects-container {
+	display: grid;
+	grid-template-columns: auto 970px auto;
 	height: 100vh;
+}
+
+.projects-content {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	align-self: center;
 }
 
 .projects-title {
@@ -114,8 +122,17 @@ code {
 /* ----------------- ABOUT ----------------- */
 
 .about-container {
+	display: grid;
+	grid-template-columns: auto 970px auto;
 	height: 100vh;
 }
+
+.about-content {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	align-self: center;
+}
+
 .about-title {
 	font-size: 2rem;
 }
