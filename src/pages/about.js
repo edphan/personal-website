@@ -12,7 +12,7 @@ function About() {
 					which allowed me to graduated before the estimated six months. I am highly self-motivated and a quick learner. When I'm not coding, I'd like to think
 					and discuss business opportunities or flying drones. I graduated from UC Berkeley with a BS degree in Energy Engineering in Spring 2021.
 				</p>
-
+				<h3>// technologies</h3>
 				<p>
 					I am great at: <br></br>
 					Front-end: JavaScript ES6 | React and Redux | HTML5 | CSS3 (grid and flex box) | jQuery; <br></br>
@@ -20,6 +20,8 @@ function About() {
 					Database: PostgreSQL; <br></br>
 					Familiar with: Python, Jest, Chai/Mocha; <br></br>
 				</p>
+				<h3>// contact</h3>
+				<p>get in touch</p>
 			</div>
 		</div>
 	);

@@ -17,9 +17,6 @@ function Nav() {
 					<Link activeClass='active' to='section-about' spy={true} smooth={true} duration={900}>
 						about
 					</Link>
-					<Link activeClass='active' to='section-contact' spy={true} smooth={true} duration={900}>
-						contact
-					</Link>
 				</div>
 				<div className='nav-darkmode'>
 					<label class='form-switch'>

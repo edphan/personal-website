@@ -214,6 +214,10 @@ code {
 	text-align: left;
 }
 
+.about-content h3 {
+	font-weight: bold;
+}
+
 /* ----------------- CONTACT ----------------- */
 
 .contact-container {
