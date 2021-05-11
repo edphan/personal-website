@@ -130,7 +130,7 @@ code {
 
 .projects-container {
 	display: grid;
-	grid-template-columns: auto 970px auto;
+	grid-template-columns: auto 1200px auto;
 	height: 100vh;
 }
 
@@ -161,7 +161,7 @@ code {
 .project-personalwebsite {
 	border-radius: 18px;
 	background-color: #ffffff;
-	height: 450px;
+	height: 550px;
 	display: grid;
 	grid-template-rows: auto auto auto;
 	font-size: 1.2rem;
