@@ -24,7 +24,7 @@ function Nav() {
 				<div className='nav-darkmode'>
 					<label class='form-switch'>
 						<input type='checkbox' id='form-switch'></input>
-						<i></i>Dark Mode
+						<i></i>dark mode
 					</label>
 				</div>
 			</div>
