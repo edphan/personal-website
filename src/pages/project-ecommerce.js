@@ -16,7 +16,7 @@ function EcommerceProject() {
 			<div className='project-text'>
 				<h3>Description:</h3>
 				<p>
-					This is an e-commerce website for Apple product. Demonstrated the ability to use React to render UI elements, setup server using Express, and connect
+					This is an e-commerce website for Apple products. Demonstrated the ability to use React to render UI elements, setup server using Express, and connect
 					the server to PostgreSQL database. I took many inspiration from the Apple website, from the color schemes to the rounded corners of the buttons and
 					various elements.
 				</p>
