@@ -1,3 +1,8 @@
+import { Link } from 'react-router-dom';
+import ecommerceimg from '../images/projects/ecommerce/homepage.png';
+import redditimg from '../images/projects/reddit/homepage.png';
+import personalwebsiteimg from '../images/projects/personalwebsite/homepage.png';
+
 const ecommerce = {
 	name: 'e-commerce',
 	image: '',
@@ -17,21 +22,45 @@ function Projects() {
 	return (
 		<div className='projects-container' id='section-projects'>
 			<div className='projects-content'>
-				<h2 className='projects-title'>
+				<h2 className='projects-page-title'>
 					<span>//</span> projects
 				</h2>
+
 				<div className='projects-container-columns'>
 					<div className='project-ecommerce'>
-						{ecommerce.name}
-						<button className='project-button'>read more</button>
+						<h3 className='projects-title'>{ecommerce.name}</h3>
+						<img src={ecommerceimg} alt='ecommerce homepage' className='projects-img' />
+						<div className='project-button'>
+							<Link to='/projects/ecommerce'>
+								<button>
+									<p>read more</p>
+								</button>
+							</Link>
+						</div>
 					</div>
+
 					<div className='project-reddit'>
-						{reddit.name}
-						<button className='project-button'>read more</button>
+						<h3 className='projects-title'>{reddit.name}</h3>
+						<img src={redditimg} alt='redditclient homepage' className='projects-img' />
+						<div className='project-button'>
+							<Link to='/projects/redditclient'>
+								<button>
+									<p>read more</p>
+								</button>
+							</Link>
+						</div>
 					</div>
+
 					<div className='project-personalwebsite'>
-						{personalwebsite.name}
-						<button className='project-button'>read more</button>
+						<h3 className='projects-title'>{personalwebsite.name}</h3>
+						<img src={personalwebsiteimg} alt='personal website homepage' className='projects-img' />
+						<div className='project-button'>
+							<Link to='/projects/personalwebsite'>
+								<button>
+									<p>read more</p>
+								</button>
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,19 +1,36 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
 import Nav from '../components/nav';
 import About from '../pages/about';
 import Contact from '../pages/contact';
 import Home from '../pages/home';
+import EcommerceProject from '../pages/project-ecommerce';
+import PersonalWebsiteProject from '../pages/project-personalwebsite';
+import RedditProject from '../pages/project-reddit';
 import Projects from '../pages/projects';
 import './App.css';
 
 function App() {
 	return (
-		<div className='App'>
-			<Nav />
-			<Home />
-			<Projects />
-			<About />
-		</div>
+		<Router>
+			<div className='App'>
+				<Nav />
+				<Switch>
+					<Route path='/' exact component={Home} />
+					<Route path='/projects' exact component={Projects} />
+					<Route path='/about' exact component={About} />
+					<Route path='/projects/ecommerce' exact component={EcommerceProject} />
+					<Route path='/projects/redditclient' exact component={RedditProject} />
+					<Route path='/projects/personalwebsite' exact component={PersonalWebsiteProject} />
+					{/* <Home />
+					<Projects />
+					<About />
+					<EcommerceProject />
+					<RedditProject />
+					<PersonalWebsiteProject /> */}
+				</Switch>
+			</div>
+		</Router>
 	);
 }
 
