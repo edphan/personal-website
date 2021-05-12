@@ -253,6 +253,47 @@ footer {
 	background-color: #0071e3;
 }
 
+/* ----------------- ECOMMERCE PROJECT ----------------- */
+
+.project-container {
+	display: grid;
+	grid-template-columns: auto 1200px auto;
+	grid-template-rows: 100px 500px auto;
+	height: 95vh;
+}
+
+.project-title {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.project-title span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: var(--dash-color);
+}
+
+.image-container {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.image-container img {
+	width: 100%;
+}
+
+.project-text {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-radius: 18px;
+	background-color: #ffffff;
+	text-align: start;
+	padding-left: 15px;
+}
+
 /* ----------------- ABOUT ----------------- */
 
 .about-container {
