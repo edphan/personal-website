@@ -41,7 +41,7 @@ code {
 	left: 0;
 	z-index: 9999;
 	display: grid;
-	background-color: var(--background-color);
+	background-color: transparent;
 	grid-template-columns: auto 970px auto;
 	font-size: 20px;
 }
@@ -331,6 +331,10 @@ footer {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	align-self: center;
+	border-radius: 18px;
+	background-color: #ffffff;
+	padding-left: 15px;
+	padding: 30px;
 }
 .about-title {
 	font-size: 2rem;

@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
 import Nav from '../components/nav';
 import About from '../pages/about';
-import Contact from '../pages/contact';
 import Home from '../pages/home';
 import EcommerceProject from '../pages/project-ecommerce';
 import PersonalWebsiteProject from '../pages/project-personalwebsite';
@@ -22,12 +21,6 @@ function App() {
 					<Route path='/projects/ecommerce' exact component={EcommerceProject} />
 					<Route path='/projects/redditclient' exact component={RedditProject} />
 					<Route path='/projects/personalwebsite' exact component={PersonalWebsiteProject} />
-					{/* <Home />
-					<Projects />
-					<About />
-					<EcommerceProject />
-					<RedditProject />
-					<PersonalWebsiteProject /> */}
 				</Switch>
 			</div>
 		</Router>

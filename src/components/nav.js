@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
 import { Link } from 'react-router-dom';
+import DarkMode from '../components/darkmode';
 
 function Nav() {
 	return (
@@ -22,10 +23,7 @@ function Nav() {
 				</div>
 
 				<div className='nav-darkmode'>
-					<label class='form-switch'>
-						<input type='checkbox' id='form-switch'></input>
-						<i></i>dark mode
-					</label>
+					<DarkMode />
 				</div>
 			</div>
 		</div>
