@@ -11,7 +11,7 @@ function RedditProject() {
 					&lt; back to projects
 				</Link>
 				<div className='h2'>
-					<span>// </span>e-commerce site
+					<span>&#47;&#47; </span>reddit-client
 				</div>
 			</div>
 			<div className='image-container'>

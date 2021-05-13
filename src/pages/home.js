@@ -9,7 +9,7 @@ function Home() {
 			<div className='home-content'>
 				<div className='home-text'>
 					<h1 className='home-gradient-text'>hello world, I'm Edward</h1>
-					<h2 className='home-description-text'>// full-stack engineer</h2>
+					<h2 className='home-description-text'>&#47;&#47; full-stack engineer</h2>
 				</div>
 
 				<div className='home-logo-container'>

@@ -8,10 +8,10 @@ function EcommerceProject() {
 		<div className='project-container'>
 			<div className='project-title'>
 				<Link to='/projects' className='projects-link'>
-					&lt; back to projects
+					<div>&lt;</div> back to projects
 				</Link>
 				<div className='h2'>
-					<span>// </span>e-commerce site
+					<span>&#47;&#47; </span>e-commerce site
 				</div>
 			</div>
 			<div className='image-container'>

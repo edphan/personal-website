@@ -276,9 +276,12 @@ footer {
 	grid-column-start: 1;
 	grid-column-end: 2;
 	font-size: 1.3rem;
-	font-family: 'Noto Sans', sans-serif;
 	text-decoration: none;
 	place-self: center;
+}
+
+.projects-link div {
+	display: inline-flex;
 }
 
 .projects-link:visited {

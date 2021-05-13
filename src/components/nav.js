@@ -8,7 +8,7 @@ function Nav() {
 			<div className='nav-content-container'>
 				<div className='nav-edwardphan'>
 					<Link to='/' className='nav-edwardphan'>
-						<span>// </span>Edward Phan
+						<span>&#47;&#47; </span>Edward Phan
 					</Link>
 				</div>
 

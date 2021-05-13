@@ -23,7 +23,7 @@ function Projects() {
 		<div className='projects-container' id='section-projects'>
 			<div className='projects-content'>
 				<h2 className='projects-page-title'>
-					<span>//</span> projects
+					<span>&#47;&#47;</span> projects
 				</h2>
 
 				<div className='projects-container-columns'>
