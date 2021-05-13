@@ -32,9 +32,7 @@ function Projects() {
 						<img src={ecommerceimg} alt='ecommerce homepage' className='projects-img' />
 						<div className='project-button'>
 							<Link to='/projects/ecommerce'>
-								<button>
-									<p>read more</p>
-								</button>
+								<button>read more</button>
 							</Link>
 						</div>
 					</div>
@@ -44,9 +42,7 @@ function Projects() {
 						<img src={redditimg} alt='redditclient homepage' className='projects-img' />
 						<div className='project-button'>
 							<Link to='/projects/redditclient'>
-								<button>
-									<p>read more</p>
-								</button>
+								<button>read more</button>
 							</Link>
 						</div>
 					</div>
@@ -56,9 +52,7 @@ function Projects() {
 						<img src={personalwebsiteimg} alt='personal website homepage' className='projects-img' />
 						<div className='project-button'>
 							<Link to='/projects/personalwebsite'>
-								<button>
-									<p>read more</p>
-								</button>
+								<button>read more</button>
 							</Link>
 						</div>
 					</div>
