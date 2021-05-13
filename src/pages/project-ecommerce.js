@@ -1,13 +1,19 @@
 import homepage from '../images/projects/ecommerce/homepage1.png';
 import login from '../images/projects/ecommerce/login.png';
 import profile from '../images/projects/ecommerce/profile.png';
+import { Link } from 'react-router-dom';
 
 function EcommerceProject() {
 	return (
 		<div className='project-container'>
-			<h2 className='project-title'>
-				<span>// </span>e-commerce site
-			</h2>
+			<div className='project-title'>
+				<Link to='/projects' className='projects-link'>
+					&lt; back to projects
+				</Link>
+				<div className='h2'>
+					<span>// </span>e-commerce site
+				</div>
+			</div>
 			<div className='image-container'>
 				<img src={homepage} alt='home page' />
 				<img src={login} alt='login page' />
@@ -32,7 +38,10 @@ function EcommerceProject() {
 				<h3>How did I overcome:</h3>
 				<p>I have learnt a ton for this project.</p>
 				<h3>Technologies used:</h3>
-				<p>React for UI, Redux for state management. Express/Node JS for server. PostgreSQL for database. Hosted both front-end and back-end on Heroku.</p>
+				<p>
+					React for UI, Redux for state management. Express/Node JS for server. Passport-local and passport-jwt for authentication and authorization. PostgreSQL
+					for database. Hosted both front-end and back-end on Heroku.
+				</p>
 			</div>
 		</div>
 	);

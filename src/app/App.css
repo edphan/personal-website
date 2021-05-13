@@ -253,12 +253,12 @@ footer {
 	background-color: #0071e3;
 }
 
-/* ----------------- ECOMMERCE PROJECT ----------------- */
+/* ----------------- INDIVIDUAL PROJECT ----------------- */
 
 .project-container {
 	display: grid;
 	grid-template-columns: auto 1200px auto;
-	grid-template-rows: 100px 500px auto;
+	grid-template-rows: 100px 470px auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -267,6 +267,27 @@ footer {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	font-size: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 100%;
+}
+
+.projects-link {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-size: 1.3rem;
+	font-family: 'Noto Sans', sans-serif;
+	text-decoration: none;
+	place-self: center;
+}
+
+.projects-link:visited {
+	color: var(--font-color);
+}
+
+.h2 {
+	font-weight: 600;
+	place-self: center;
 }
 
 .project-title span {
@@ -280,7 +301,6 @@ footer {
 	grid-column-end: 3;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 15px;
 }
 
 .image-container img {
