@@ -1,34 +1,12 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { toggle } from './darkmodeSlice';
 
 export default function DarkMode() {
-	let clicked = 'clicked';
-	const body = document.body;
-	const lightTheme = 'light';
-	const darkTheme = 'dark';
-	let theme;
-
-	if (localStorage) {
-		theme = localStorage.getItem('theme');
-	}
-
-	if (theme === lightTheme || theme === darkTheme) {
-		body.classList.add(theme);
-	} else {
-		body.classList.add(lightTheme);
-	}
+	const dispatch = useDispatch();
 
 	const handleChange = (e) => {
-		if (theme === darkTheme) {
-			body.classList.replace(darkTheme, lightTheme);
-			e.target.classList.remove(clicked);
-			localStorage.setItem('theme', 'light');
-			theme = lightTheme;
-		} else {
-			body.classList.replace(lightTheme, darkTheme);
-			e.target.classList.add(clicked);
-			localStorage.setItem('theme', 'dark');
-			theme = darkTheme;
-		}
+		dispatch(toggle());
 	};
 
 	return (

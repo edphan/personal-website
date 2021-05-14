@@ -1,12 +1,16 @@
 import github from '../images/icons/Octocat/Octocat.png';
+import githubdark from '../images/icons/githubdark.png';
 import linkedin from '../images/icons/LinkedIn-Logos/LI-In-Bug.png';
 import email from '../images/icons/email_3.png';
+import { useSelector } from 'react-redux';
+import { selectDarkmode } from '../components/darkmodeSlice';
 
 function About() {
+	const darkmode = useSelector(selectDarkmode);
 	return (
-		<div className='about-container' id='section-about'>
-			<div className='about-content'>
-				<h2 className='about-title'>
+		<div className='about-container'>
+			<div className={darkmode ? 'about-content-dark' : 'about-content'}>
+				<h2 className={darkmode ? 'about-title-dark' : 'about-title'}>
 					<span>//</span> about
 				</h2>
 				<p>
@@ -28,7 +32,7 @@ function About() {
 				<h3>get in touch</h3>
 				<div className='home-logo-container'>
 					<a href='https://github.com/edphan'>
-						<img src={github} alt='github logo' />
+						<img src={darkmode ? githubdark : github} alt='github logo' />
 					</a>
 					<a href='https://www.linkedin.com/in/trungngocphan/'>
 						<img src={linkedin} alt='linkedin logo' />

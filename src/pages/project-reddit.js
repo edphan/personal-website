@@ -2,13 +2,16 @@ import homepage from '../images/projects/reddit/homepage3.png';
 import post from '../images/projects/reddit/post.png';
 import mobileView from '../images/projects/reddit/mobileView.png';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { selectDarkmode } from '../components/darkmodeSlice';
 
 function RedditProject() {
+	const darkmode = useSelector(selectDarkmode);
 	return (
 		<div className='project-container'>
-			<div className='project-title'>
+			<div className={darkmode ? 'project-title-dark' : 'project-title'}>
 				<Link to='/projects' className='projects-link'>
-					&lt; back to projects
+					<p>&lt; back to projects</p>
 				</Link>
 				<div className='h2'>
 					<span>&#47;&#47; </span>reddit-client
@@ -19,7 +22,7 @@ function RedditProject() {
 				<img src={post} alt='post page' />
 				<img src={mobileView} alt='mobile page' />
 			</div>
-			<div className='project-text'>
+			<div className={darkmode ? 'project-text-dark' : 'project-text'}>
 				<h3>Description:</h3>
 				<p>
 					This is a reddit client. It demonstrate the ability to use API call to Reddit’s undocumented JSON API, and display the response. I chose to make the

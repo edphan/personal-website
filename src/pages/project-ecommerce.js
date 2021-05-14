@@ -2,13 +2,16 @@ import homepage from '../images/projects/ecommerce/homepage1.png';
 import login from '../images/projects/ecommerce/login.png';
 import profile from '../images/projects/ecommerce/profile.png';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { selectDarkmode } from '../components/darkmodeSlice';
 
 function EcommerceProject() {
+	const darkmode = useSelector(selectDarkmode);
 	return (
 		<div className='project-container'>
-			<div className='project-title'>
+			<div className={darkmode ? 'project-title-dark' : 'project-title'}>
 				<Link to='/projects' className='projects-link'>
-					<div>&lt;</div> back to projects
+					<p>&lt; back to projects</p>
 				</Link>
 				<div className='h2'>
 					<span>&#47;&#47; </span>e-commerce site
@@ -19,7 +22,7 @@ function EcommerceProject() {
 				<img src={login} alt='login page' />
 				<img src={profile} alt='profile page' />
 			</div>
-			<div className='project-text'>
+			<div className={darkmode ? 'project-text-dark' : 'project-text'}>
 				<h3>Description:</h3>
 				<p>
 					This is an e-commerce website for Apple products. Demonstrated the ability to use React to render UI elements, setup server using Express, and connect
