@@ -32,6 +32,9 @@ export default function Projects() {
 								<button>read more</button>
 							</Link>
 						</div>
+						<div className={darkmode ? 'projects-live-button-dark' : 'projects-live-button'}>
+							<button onClick={() => window.open('https://e-commerce-apple.herokuapp.com', '_blank')}>project live</button>
+						</div>
 						<div className='projects-icons'>
 							<img src={react} alt='react' />
 							<img src={node} alt='node' />
@@ -57,6 +60,9 @@ export default function Projects() {
 								<button>read more</button>
 							</Link>
 						</div>
+						<div className={darkmode ? 'projects-live-button-dark' : 'projects-live-button'}>
+							<button onClick={() => window.open('https://reddit-client-ed.netlify.app')}>project live</button>
+						</div>
 						<div className='projects-icons'>
 							<img src={react} alt='react' />
 							<img src={redux} alt='redux' />
@@ -80,6 +86,9 @@ export default function Projects() {
 							<Link to='/projects/personalwebsite'>
 								<button>read more</button>
 							</Link>
+						</div>
+						<div className={darkmode ? 'projects-live-button-dark' : 'projects-live-button'}>
+							<button onClick={() => window.open('https://e-commerce-apple.herokuapp.com', '_blank')}>project live</button>
 						</div>
 						<div className='projects-icons'>
 							<img src={react} alt='react' />

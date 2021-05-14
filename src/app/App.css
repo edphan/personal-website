@@ -239,21 +239,21 @@ footer {
 	font-size: 1.7rem;
 }
 
+.projects-content-bottom {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-self: center;
+}
+
 .projects-button button {
 	border-radius: 10px;
 	border: 1px solid #3371db;
 	background-color: #3371db;
-	width: 150px;
+	width: 135px;
 	height: 50px;
 	color: #fff;
 	font-size: 1.1rem;
 	font-weight: bold;
-}
-
-.projects-content-bottom {
-	display: grid;
-	grid-template-columns: auto auto;
-	align-self: center;
 }
 
 .projects-button button:hover {
@@ -262,6 +262,26 @@ footer {
 }
 
 .projects-button button:active {
+	background-color: #0071e3;
+}
+
+.projects-live-button button {
+	border-radius: 10px;
+	border: 1px solid #3371db;
+	background-color: transparent;
+	width: 135px;
+	height: 50px;
+	color: #3371db;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.projects-live-button button:hover {
+	background-color: #3b77ea;
+	color: #fff;
+}
+
+.projects-live-button button:active {
 	background-color: #0071e3;
 }
 
@@ -327,7 +347,7 @@ footer {
 .project-title span {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	color: var(--dash-color);
+	color: #3371db;
 }
 
 .project-live-code-button {
@@ -338,7 +358,7 @@ footer {
 	border-radius: 10px;
 	border: 1px solid #3371db;
 	background-color: transparent;
-	width: 150px;
+	width: 135px;
 	height: 50px;
 	color: #3371db;
 	font-size: 1.1rem;
@@ -533,6 +553,26 @@ footer {
 	padding-left: 30px;
 	color: rgba(255, 255, 255, 0.87);
 }
+
+.projects-live-button-dark button {
+	border-radius: 10px;
+	border: 1px solid #3371db;
+	background-color: transparent;
+	width: 135px;
+	height: 50px;
+	color: rgba(255, 255, 255, 0.87);
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.projects-live-button-dark button:hover {
+	background-color: #3b77ea;
+	color: #fff;
+}
+
+.projects-live-button-dark button:active {
+	background-color: #0071e3;
+}
 /* ------------------------------- */
 .project-title-dark {
 	grid-column-start: 2;
@@ -564,7 +604,7 @@ footer {
 	border-radius: 10px;
 	border: 1px solid #3371db;
 	background-color: transparent;
-	width: 150px;
+	width: 135px;
 	height: 50px;
 	color: rgba(255, 255, 255, 0.87);
 	font-size: 1.1rem;
@@ -598,7 +638,7 @@ footer {
 .about-title-dark span {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	color: var(--dash-color);
+	color: #3371db;
 }
 
 .about-content-dark p {
