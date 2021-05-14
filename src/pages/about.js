@@ -11,7 +11,7 @@ function About() {
 		<div className='about-container'>
 			<div className={darkmode ? 'about-content-dark' : 'about-content'}>
 				<h2 className={darkmode ? 'about-title-dark' : 'about-title'}>
-					<span>//</span> about
+					<span>&#47;&#47;</span> about
 				</h2>
 				<p>
 					I have always wanted to use programming to turn ideas into cool and amazing web products. I took the plunge and enrolled in the Full-Stack Engineer
@@ -37,9 +37,8 @@ function About() {
 					<a href='https://www.linkedin.com/in/trungngocphan/'>
 						<img src={linkedin} alt='linkedin logo' />
 					</a>
-					<a>
-						<img src={email} alt='email logo' />
-					</a>
+
+					<img src={email} alt='email logo' />
 				</div>
 			</div>
 		</div>

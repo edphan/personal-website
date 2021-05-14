@@ -68,7 +68,7 @@ code {
 	font-size: 21px;
 	width: 100%;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	text-decoration: none;
 }
 
@@ -472,7 +472,7 @@ footer {
 	font-size: 21px;
 	width: 100%;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	text-decoration: none;
 }
 
