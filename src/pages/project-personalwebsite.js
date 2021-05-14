@@ -16,6 +16,10 @@ function PersonalWebsiteProject() {
 				<div className='h2'>
 					<span>&#47;&#47; </span>personal website
 				</div>
+				<div className={darkmode ? 'project-live-code-button-dark' : 'project-live-code-button'}>
+					<button onClick={() => window.open('https://e-commerce-apple.herokuapp.com', '_blank')}>project live</button>
+					<button onClick={() => window.open('https://github.com/edphan/personal-website', '_blank')}>source code</button>
+				</div>
 			</div>
 			<div className='image-container'>
 				<img src={homepagedark} alt='home page' />

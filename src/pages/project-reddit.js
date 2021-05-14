@@ -16,6 +16,10 @@ function RedditProject() {
 				<div className='h2'>
 					<span>&#47;&#47; </span>reddit-client
 				</div>
+				<div className={darkmode ? 'project-live-code-button-dark' : 'project-live-code-button'}>
+					<button onClick={() => window.open('https://reddit-client-ed.netlify.app')}>project live</button>
+					<button onClick={() => window.open('https://github.com/edphan/reddit-client-main', '_blank')}>source code</button>
+				</div>
 			</div>
 			<div className='image-container'>
 				<img src={homepage} alt='home page' />

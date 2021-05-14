@@ -330,6 +330,31 @@ footer {
 	color: var(--dash-color);
 }
 
+.project-live-code-button {
+	place-self: center;
+}
+
+.project-live-code-button button {
+	border-radius: 10px;
+	border: 1px solid #3371db;
+	background-color: transparent;
+	width: 150px;
+	height: 50px;
+	color: #3371db;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.project-live-code-button button:hover {
+	background-color: #3b77ea;
+	color: #fff;
+}
+
+.project-live-code-button button:active {
+	background-color: #0071e3;
+}
+
 .image-container {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -497,7 +522,7 @@ footer {
 .nav-pages-dark p {
 	color: rgba(255, 255, 255, 0.87);
 }
-
+/* ------------------------------- */
 .projects-container-dark {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -508,7 +533,7 @@ footer {
 	padding-left: 30px;
 	color: rgba(255, 255, 255, 0.87);
 }
-
+/* ------------------------------- */
 .project-title-dark {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -529,6 +554,31 @@ footer {
 	background-color: #1f1f33;
 	text-align: start;
 	padding-left: 15px;
+}
+
+.project-live-code-button-dark {
+	place-self: center;
+}
+
+.project-live-code-button-dark button {
+	border-radius: 10px;
+	border: 1px solid #3371db;
+	background-color: transparent;
+	width: 150px;
+	height: 50px;
+	color: rgba(255, 255, 255, 0.87);
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.project-live-code-button-dark button:hover {
+	background-color: #3b77ea;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.project-live-code-button-dark button:active {
+	background-color: #0071e3;
 }
 /* ------------------------------- */
 .about-content-dark {
