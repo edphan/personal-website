@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ecommerceimg from '../images/projects/ecommerce/homepage1.png';
 import redditimg from '../images/projects/reddit/homepage3.png';
-import personalwebsiteimg from '../images/projects/personalwebsite/homepage.png';
+import personalwebsiteimg from '../images/projects/personalwebsite/homepagedark.png';
 import react from '../images/icons/react1.png';
 import node from '../images/icons/nodejs1.png';
 import postgres from '../images/icons/postgresql.png';
@@ -89,7 +89,7 @@ export default function Projects() {
 					</div>
 				</div>
 				<div className='projects-picture'>
-					<img src={ecommerceimg} alt='personal homepage' />
+					<img src={personalwebsiteimg} alt='personal homepage' />
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
-import homepage from '../images/projects/personalwebsite/homepage.png';
-import post from '../images/projects/personalwebsite/post.png';
-import mobileView from '../images/projects/personalwebsite/mobileView.png';
+import projectsdark from '../images/projects/personalwebsite/projectsdark.png';
+import homepagedark from '../images/projects/personalwebsite/homepagedark.png';
+import aboutdark from '../images/projects/personalwebsite/aboutdark.png';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectDarkmode } from '../components/darkmodeSlice';
@@ -18,9 +18,9 @@ function PersonalWebsiteProject() {
 				</div>
 			</div>
 			<div className='image-container'>
-				<img src={homepage} alt='home page' />
-				<img src={post} alt='post page' />
-				<img src={mobileView} alt='mobile page' />
+				<img src={homepagedark} alt='home page' />
+				<img src={projectsdark} alt='post page' />
+				<img src={aboutdark} alt='mobile page' />
 			</div>
 			<div className={darkmode ? 'project-text-dark' : 'project-text'}>
 				<h3>Description:</h3>
