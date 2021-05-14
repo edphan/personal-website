@@ -23,7 +23,7 @@ function About() {
 				</p>
 				<h3>tech stack</h3>
 				<p>
-					Front-end: JavaScript ES6, React and Redux, HTML5, CSS3 (grid and flex box), jQuery; <br></br>
+					Front-end: React and Redux, JavaScript ES6, HTML5, CSS3 (grid and flex box), jQuery; <br></br>
 					Back-end: Node JS, Express, RESTful APIs;<br></br>
 					Database: PostgreSQL; <br></br>
 					Host: Heroku, Netlify; <br></br>
