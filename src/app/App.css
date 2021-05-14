@@ -28,12 +28,6 @@ code {
 	text-align: center;
 }
 
-.Appdark {
-	background-color: #121212;
-	color: rgba(255, 255, 255, 0.87);
-	text-align: center;
-}
-
 /* ----------------- NAV BAR ----------------- */
 
 .nav-container {
@@ -470,6 +464,12 @@ footer {
 
 /* ----------------- DARK MODE ----------------- */
 
+.Appdark {
+	background-color: #171725;
+	color: rgba(255, 255, 255, 0.87);
+	text-align: center;
+}
+
 .nav-edwardphan-dark {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
@@ -507,7 +507,7 @@ footer {
 	grid-column-end: 3;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	background-color: #1c1c1e;
+	background-color: #1f1f33;
 	border-radius: 10px;
 	padding-left: 30px;
 	color: rgba(255, 255, 255, 0.87);
@@ -530,7 +530,7 @@ footer {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	border-radius: 10px;
-	background-color: #1c1c1e;
+	background-color: #1f1f33;
 	text-align: start;
 	padding-left: 15px;
 }
@@ -540,7 +540,7 @@ footer {
 	grid-column-end: 3;
 	align-self: center;
 	border-radius: 10px;
-	background-color: #1c1c1e;
+	background-color: #1f1f33;
 	padding-left: 15px;
 	padding: 30px;
 }
