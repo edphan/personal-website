@@ -92,7 +92,7 @@ code {
 .home-container {
 	display: grid;
 	grid-template-columns: auto minmax(0, 970px) auto;
-	height: 96vh;
+	height: 97vh;
 	align-items: center;
 }
 
@@ -728,6 +728,7 @@ footer {
 	background-color: #1f1f33;
 	text-align: start;
 	padding-left: 15px;
+	margin-bottom: 15px;
 }
 
 .project-live-code-button-dark {
