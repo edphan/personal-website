@@ -30,7 +30,7 @@ function About() {
 					Familiar with: Python, Jest, Chai/Mocha; <br></br>
 				</p>
 				<h3>get in touch</h3>
-				<div className='home-logo-container'>
+				<div className='about-logo-container'>
 					<a href='https://github.com/edphan'>
 						<img src={darkmode ? githubdark : github} alt='github logo' />
 					</a>

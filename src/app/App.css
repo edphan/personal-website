@@ -509,6 +509,16 @@ footer {
 	font-size: 1.4rem;
 }
 
+.about-logo-container {
+	height: 50px;
+	width: 100%;
+}
+
+.about-logo-container img {
+	height: 100%;
+	margin-right: 40px;
+}
+
 /* ----------------- DARK MODE SWITCH ----------------- */
 
 .form-switch {
