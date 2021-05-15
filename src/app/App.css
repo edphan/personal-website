@@ -391,7 +391,7 @@ footer {
 
 .about-container {
 	display: grid;
-	grid-template-columns: auto 970px auto;
+	grid-template-columns: auto minmax(0, 970px) auto;
 	height: 98vh;
 }
 
