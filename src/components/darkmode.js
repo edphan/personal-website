@@ -6,6 +6,7 @@ export default function DarkMode() {
 	const dispatch = useDispatch();
 
 	const handleChange = (e) => {
+		document.body.style.backgroundColor = '#171725';
 		dispatch(toggle());
 	};
 

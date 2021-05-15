@@ -4,7 +4,17 @@ export const darkmodeSlice = createSlice({
 	name: 'darkmode',
 	initialState: false,
 	reducers: {
-		toggle: (state, action) => (state = !state),
+		toggle: (state, action) => {
+			if (state) {
+				state = !state;
+				document.body.style.backgroundColor = '#f5f5f7';
+				return state;
+			} else {
+				state = !state;
+				document.body.style.backgroundColor = '#171725';
+				return state;
+			}
+		},
 	},
 });
 

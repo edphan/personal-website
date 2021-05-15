@@ -92,7 +92,7 @@ code {
 .home-container {
 	display: grid;
 	grid-template-columns: auto minmax(0, 970px) auto;
-	height: 97vh;
+	height: 100vh;
 	align-items: center;
 }
 
@@ -186,12 +186,11 @@ footer {
 
 .projects-page-container {
 	display: grid;
-	grid-template-columns: auto minmax(0, 850px) auto;
+	grid-template-columns: auto minmax(350px, 850px) auto;
 	grid-template-rows: 80px;
 	grid-auto-rows: auto;
 	grid-gap: 40px;
 	margin-top: 50px;
-	height: 1178px;
 }
 
 .projects-page-title {
@@ -477,7 +476,6 @@ footer {
 .about-container {
 	display: grid;
 	grid-template-columns: auto minmax(0, 970px) auto;
-	height: 98vh;
 }
 
 .about-content {
@@ -593,7 +591,6 @@ footer {
 /* ----------------- DARK MODE ----------------- */
 
 .Appdark {
-	background-color: #171725;
 	color: rgba(255, 255, 255, 0.87);
 	text-align: center;
 }
@@ -654,12 +651,11 @@ footer {
 
 .projects-page-container-dark {
 	display: grid;
-	grid-template-columns: auto minmax(0, 850px) auto;
+	grid-template-columns: auto minmax(350px, 850px) auto;
 	grid-template-rows: 80px;
 	grid-auto-rows: auto;
 	grid-gap: 40px;
 	margin-top: 50px;
-	height: 1178px;
 }
 
 .projects-container-dark {
@@ -729,7 +725,6 @@ footer {
 	background-color: #1f1f33;
 	text-align: start;
 	padding-left: 15px;
-	margin-bottom: 15px;
 }
 
 .project-live-code-button-dark {
