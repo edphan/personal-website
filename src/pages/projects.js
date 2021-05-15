@@ -15,7 +15,7 @@ import { selectDarkmode } from '../components/darkmodeSlice';
 export default function Projects() {
 	const darkmode = useSelector(selectDarkmode);
 	return (
-		<div className='projects-page-container'>
+		<div className={darkmode ? 'projects-page-container-dark' : 'projects-page-container'}>
 			<h2 className='projects-page-title'>
 				<span>&#47;&#47;</span> projects
 			</h2>
