@@ -1,3 +1,4 @@
+import '../components/styles/one-project.css';
 import homepage from '../images/projects/ecommerce/homepage1.png';
 import login from '../images/projects/ecommerce/login.png';
 import profile from '../images/projects/ecommerce/profile.png';

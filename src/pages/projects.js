@@ -1,4 +1,5 @@
 import React from 'react';
+import '../components/styles/projects.css';
 import { Link } from 'react-router-dom';
 import ecommerceimg from '../images/projects/ecommerce/homepage1.png';
 import redditimg from '../images/projects/reddit/homepage3.png';

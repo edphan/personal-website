@@ -1,0 +1,144 @@
+/* ----------------- INDIVIDUAL PROJECT ----------------- */
+
+.project-container {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1300px) auto;
+	grid-template-rows: auto auto auto;
+	margin-top: 50px;
+}
+
+.project-title {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	font-size: 2rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: fit-content;
+	height: 100%;
+}
+
+.projects-link {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-size: 1.3rem;
+	text-decoration: none;
+	place-self: center;
+}
+
+.projects-link div {
+	display: inline-flex;
+}
+
+.projects-link:visited {
+	color: var(--font-color);
+}
+
+.h2 {
+	font-weight: 600;
+	place-self: center;
+}
+
+.project-title span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #3371db;
+}
+
+.project-live-code-button {
+	align-self: center;
+	justify-self: center;
+}
+
+.project-live-code-button button {
+	border-radius: 10px;
+	border: 1px solid #3371db;
+	background-color: transparent;
+	width: 135px;
+	height: 50px;
+	color: #3371db;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.project-live-code-button button:hover {
+	background-color: #3b77ea;
+	color: #fff;
+}
+
+.project-live-code-button button:active {
+	background-color: #0071e3;
+}
+
+.image-container {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: fit-content;
+}
+
+.image-container img {
+	height: 470px;
+}
+
+.project-text {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-radius: 10px;
+	background-color: #ffffff;
+	text-align: start;
+	padding-left: 15px;
+}
+
+/* --------- DARK MODE --------- */
+
+.project-title-dark {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	font-size: 2rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: fit-content;
+}
+
+.project-title-dark p {
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.project-text-dark {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-radius: 10px;
+	background-color: #1f1f33;
+	text-align: start;
+	padding-left: 15px;
+}
+
+.project-live-code-button-dark {
+	place-self: center;
+}
+
+.project-live-code-button-dark button {
+	border-radius: 10px;
+	border: 1px solid #3371db;
+	background-color: transparent;
+	width: 135px;
+	height: 50px;
+	color: rgba(255, 255, 255, 0.87);
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.project-live-code-button-dark button:hover {
+	background-color: #3b77ea;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.project-live-code-button-dark button:active {
+	background-color: #0071e3;
+}

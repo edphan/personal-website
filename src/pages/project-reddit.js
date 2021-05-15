@@ -1,3 +1,4 @@
+import '../components/styles/one-project.css';
 import homepage from '../images/projects/reddit/homepage3.png';
 import post from '../images/projects/reddit/post.png';
 import mobileView from '../images/projects/reddit/mobileView.png';

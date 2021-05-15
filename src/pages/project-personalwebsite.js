@@ -1,3 +1,4 @@
+import '../components/styles/one-project.css';
 import projectsdark from '../images/projects/personalwebsite/projectsdark.png';
 import homepagedark from '../images/projects/personalwebsite/homepagedark.png';
 import aboutdark from '../images/projects/personalwebsite/aboutdark.png';

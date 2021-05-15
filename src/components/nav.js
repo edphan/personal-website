@@ -1,6 +1,6 @@
 import React from 'react';
+import './styles/nav.css';
 import { useSelector } from 'react-redux';
-// import { Link } from 'react-scroll';
 import { Link } from 'react-router-dom';
 import DarkMode from '../components/darkmode';
 import { selectDarkmode } from './darkmodeSlice';

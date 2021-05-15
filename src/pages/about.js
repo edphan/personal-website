@@ -1,3 +1,4 @@
+import '../components/styles/about.css';
 import github from '../images/icons/Octocat/Octocat.png';
 import githubdark from '../images/icons/githubdark.png';
 import linkedin from '../images/icons/LinkedIn-Logos/LI-In-Bug.png';
@@ -9,10 +10,10 @@ function About() {
 	const darkmode = useSelector(selectDarkmode);
 	return (
 		<div className='about-container'>
+			<h2 className={darkmode ? 'about-title-dark' : 'about-title'}>
+				<span>&#47;&#47;</span> about
+			</h2>
 			<div className={darkmode ? 'about-content-dark' : 'about-content'}>
-				<h2 className={darkmode ? 'about-title-dark' : 'about-title'}>
-					<span>&#47;&#47;</span> about
-				</h2>
 				<p>
 					I have always wanted to use programming to turn ideas into cool and amazing web products. I took the plunge and enrolled in the Full-Stack Engineer
 					degree from Codecademy in 2021. It was a 24-weeks intensive boot camp-like experience. I gained proficiency in full-stack engineering with the PERN

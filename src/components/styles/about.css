@@ -1,0 +1,84 @@
+/* ----------------- ABOUT ----------------- */
+
+.about-container {
+	display: grid;
+	grid-template-columns: auto minmax(0, 970px) auto;
+	align-items: center;
+	margin-top: 50px;
+	grid-gap: 40px;
+}
+
+.about-content {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	align-self: center;
+	border-radius: 10px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.about-title {
+	font-size: 2rem;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.about-title span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: var(--dash-color);
+}
+
+.about-content p {
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.about-content h3 {
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.about-logo-container {
+	height: 50px;
+	width: 70%;
+	display: inline-flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.about-logo-container img {
+	height: 50px;
+}
+
+/* --------- DARK MODE --------- */
+
+.about-content-dark {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	align-self: center;
+	border-radius: 10px;
+	background-color: #1f1f33;
+	padding-left: 15px;
+	padding: 30px;
+}
+
+.about-title-dark {
+	font-size: 2rem;
+}
+
+.about-title-dark span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #3371db;
+}
+
+.about-content-dark p {
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.about-content-dark h3 {
+	font-weight: bold;
+	font-size: 1.4rem;
+}

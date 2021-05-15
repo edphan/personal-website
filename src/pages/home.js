@@ -1,3 +1,4 @@
+import '../components/styles/home.css';
 import github from '../images/icons/Octocat/Octocat.png';
 import githubdark from '../images/icons/githubdark.png';
 import linkedin from '../images/icons/LinkedIn-Logos/LI-In-Bug.png';
