@@ -425,7 +425,8 @@ footer {
 }
 
 .project-live-code-button {
-	place-self: center;
+	align-self: center;
+	justify-self: center;
 }
 
 .project-live-code-button button {
