@@ -75,7 +75,7 @@
 	right: 0;
 	left: 0;
 	z-index: 9999;
-	display: grid;
+	font-size: 20px;
 	background-color: #171725;
 	grid-template-columns: auto minmax(0, 970px) auto;
 	font-size: 20px;

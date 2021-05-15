@@ -5,6 +5,7 @@
 	grid-template-columns: auto minmax(0, 970px) auto;
 	align-items: center;
 	margin-top: 50px;
+	height: 90vh;
 }
 
 .home-content {

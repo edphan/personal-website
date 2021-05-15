@@ -46,8 +46,6 @@
 }
 
 .project-live-code-button {
-	align-self: center;
-	justify-self: center;
 }
 
 .project-live-code-button button {
@@ -119,7 +117,6 @@
 }
 
 .project-live-code-button-dark {
-	place-self: center;
 }
 
 .project-live-code-button-dark button {
