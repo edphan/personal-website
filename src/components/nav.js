@@ -8,7 +8,7 @@ import { selectDarkmode } from './darkmodeSlice';
 function Nav() {
 	const darkmode = useSelector(selectDarkmode);
 	return (
-		<div className='nav-container'>
+		<div className={darkmode ? 'nav-container-dark' : 'nav-container'}>
 			<div className='nav-content-container'>
 				<div className={darkmode ? 'nav-edwardphan-dark' : 'nav-edwardphan'}>
 					<Link to='/' className='nav-edwardphan'>

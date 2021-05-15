@@ -34,24 +34,9 @@ code {
 	left: 0;
 	z-index: 9999;
 	display: grid;
-	background-color: transparent;
+	background-color: #f5f5f7;
 	grid-template-columns: auto 970px auto;
 	font-size: 20px;
-}
-
-.nav-container-dark {
-	width: 100%;
-	height: 50px;
-	position: sticky;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 9999;
-	display: grid;
-	background-color: transparent;
-	grid-template-columns: auto 970px auto;
-	font-size: 20px;
-	color: #fff;
 }
 
 .nav-content-container {
@@ -504,6 +489,21 @@ footer {
 }
 
 /* ----------------- DARK MODE ----------------- */
+
+.nav-container-dark {
+	width: 100%;
+	height: 50px;
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	display: grid;
+	background-color: #171725;
+	grid-template-columns: auto 970px auto;
+	font-size: 20px;
+	color: #fff;
+}
 
 .Appdark {
 	background-color: #171725;
