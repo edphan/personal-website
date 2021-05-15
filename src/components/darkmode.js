@@ -13,7 +13,8 @@ export default function DarkMode() {
 		<div>
 			<label className='form-switch'>
 				<input type='checkbox' id='form-switch' onChange={(e) => handleChange(e)}></input>
-				<i></i>dark mode
+				<i></i>
+				<label className='dark-mode-label'>dark mode</label>
 			</label>
 		</div>
 	);
