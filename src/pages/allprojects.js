@@ -19,18 +19,16 @@ function AllProjects() {
 				<div className='project-left'>
 					<h3>e-commerce</h3>
 					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
+					<div className='project-tech-logos'>
+						<img src={react} alt='react logo' />
+						<img src={node} alt='node logo' />
+						<img src={postgres} alt='postgresql logo' />
+						<img src={heroku} alt='heroku logo' />
+					</div>
 
-					<div className='project-button-logos'>
-						<div className='project-button-container'>
-							<button>read more</button>
-							<button>project live</button>
-						</div>
-						<div className='project-tech-logos'>
-							<img src={react} alt='react logo' />
-							<img src={node} alt='node logo' />
-							<img src={postgres} alt='postgresql logo' />
-							<img src={heroku} alt='heroku logo' />
-						</div>
+					<div className='project-button-container'>
+						<button>read more</button>
+						<button>project live</button>
 					</div>
 				</div>
 				<div className='project-image'>
@@ -38,12 +36,47 @@ function AllProjects() {
 				</div>
 			</div>
 
-			{/* <div class='allprojects-individual-container'>
-				<h3>reddit-client</h3>
-				<p>A front-end client that fetches data from Reddit API. It displays posts from a combination of sub-reddits and able to search for a post.</p>
-				<button>read more</button>
-				<button>project live</button>
-			</div> */}
+			<div className='individual-project-container'>
+				<div className='project-left'>
+					<h3>reddit-client</h3>
+					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
+					<div className='project-tech-logos'>
+						<img src={react} alt='react logo' />
+						<img src={node} alt='node logo' />
+						<img src={postgres} alt='postgresql logo' />
+						<img src={heroku} alt='heroku logo' />
+					</div>
+
+					<div className='project-button-container'>
+						<button>read more</button>
+						<button>project live</button>
+					</div>
+				</div>
+				<div className='project-image'>
+					<img src={redditimg} alt='ecommerce homepage' />
+				</div>
+			</div>
+
+			<div className='individual-project-container'>
+				<div className='project-left'>
+					<h3>personal website</h3>
+					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
+					<div className='project-tech-logos'>
+						<img src={react} alt='react logo' />
+						<img src={node} alt='node logo' />
+						<img src={postgres} alt='postgresql logo' />
+						<img src={heroku} alt='heroku logo' />
+					</div>
+
+					<div className='project-button-container'>
+						<button>read more</button>
+						<button>project live</button>
+					</div>
+				</div>
+				<div className='project-image'>
+					<img src={personalwebsiteimg} alt='ecommerce homepage' />
+				</div>
+			</div>
 		</div>
 	);
 }
