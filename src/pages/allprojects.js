@@ -30,7 +30,6 @@ function AllProjects() {
 						<img src={postgres} alt='postgresql logo' />
 						<img src={heroku} alt='heroku logo' />
 					</div>
-
 					<div className='project-button-container'>
 						<Link to='/projects/ecommerce'>
 							<button>read more</button>
@@ -43,7 +42,7 @@ function AllProjects() {
 				</div>
 			</div>
 
-			<div className='individual-project-container'>
+			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>reddit-client</h3>
 					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
@@ -52,7 +51,6 @@ function AllProjects() {
 						<img src={redux} alt='redux logo' />
 						<img src={node} alt='node logo' />
 					</div>
-
 					<div className='project-button-container'>
 						<Link to='/projects/redditclient'>
 							<button>read more</button>
@@ -65,7 +63,7 @@ function AllProjects() {
 				</div>
 			</div>
 
-			<div className='individual-project-container'>
+			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>personal website</h3>
 					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
@@ -74,7 +72,6 @@ function AllProjects() {
 						<img src={node} alt='node logo' />
 						<img src={netlify} alt='netlify logo' />
 					</div>
-
 					<div className='project-button-container'>
 						<Link to='/projects/personalwebsite'>
 							<button>read more</button>

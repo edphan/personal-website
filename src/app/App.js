@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
-// import Nav from '../components/nav';
+import Nav from '../components/nav';
 import About from '../pages/about';
 import Home from '../pages/home';
 import EcommerceProject from '../pages/project-ecommerce';
@@ -16,7 +16,7 @@ function App() {
 	return (
 		<Router>
 			<div className={darkmode ? 'Appdark' : 'App'}>
-				{/* <Nav /> */}
+				<Nav />
 				<Switch>
 					<Route path='/' exact component={Home} />
 					<Route path='/projects' exact component={AllProjects} />
