@@ -107,3 +107,22 @@
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	color: rgba(255, 255, 255, 0.87);
 }
+
+@media only screen and (max-width: 700px) {
+	.individual-project-container-dark {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.project-left {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		text-align: center;
+		padding-right: 20px;
+	}
+
+	.project-image {
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+}
