@@ -52,13 +52,6 @@
 	margin-right: 20px;
 }
 
-/* .project-button-container {
-	background-color: green;
-	width: 90%;
-	display: flex;
-	justify-content: space-between;
-} */
-
 .project-button-container button {
 	border-radius: 10px;
 	border: 1px solid #3371db;

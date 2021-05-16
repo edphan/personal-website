@@ -19,7 +19,7 @@ function App() {
 				{/* <Nav /> */}
 				<Switch>
 					<Route path='/' exact component={Home} />
-					<Route path='/allprojects' exact component={AllProjects} />
+					<Route path='/projects' exact component={AllProjects} />
 					<Route path='/about' exact component={About} />
 					<Route path='/projects/ecommerce' exact component={EcommerceProject} />
 					<Route path='/projects/redditclient' exact component={RedditProject} />

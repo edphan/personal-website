@@ -10,6 +10,7 @@ import postgres from '../images/icons/postgresql.png';
 import redux from '../images/icons/redux.png';
 import netlify from '../images/icons/netlify.png';
 import heroku from '../images/icons/heroku.png';
+import { Link } from 'react-router-dom';
 
 function AllProjects() {
 	const darkmode = useSelector(selectDarkmode);
@@ -31,8 +32,10 @@ function AllProjects() {
 					</div>
 
 					<div className='project-button-container'>
-						<button>read more</button>
-						<button>project live</button>
+						<Link to='/projects/ecommerce'>
+							<button>read more</button>
+						</Link>
+						<button onClick={() => window.open('https://e-commerce-apple.herokuapp.com', '_blank')}>project live</button>
 					</div>
 				</div>
 				<div className='project-image'>
@@ -46,14 +49,15 @@ function AllProjects() {
 					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
 					<div className='project-tech-logos'>
 						<img src={react} alt='react logo' />
+						<img src={redux} alt='redux logo' />
 						<img src={node} alt='node logo' />
-						<img src={postgres} alt='postgresql logo' />
-						<img src={heroku} alt='heroku logo' />
 					</div>
 
 					<div className='project-button-container'>
-						<button>read more</button>
-						<button>project live</button>
+						<Link to='/projects/redditclient'>
+							<button>read more</button>
+						</Link>
+						<button onClick={() => window.open('https://reddit-client-ed.netlify.app')}>project live</button>
 					</div>
 				</div>
 				<div className='project-image'>
@@ -68,13 +72,14 @@ function AllProjects() {
 					<div className='project-tech-logos'>
 						<img src={react} alt='react logo' />
 						<img src={node} alt='node logo' />
-						<img src={postgres} alt='postgresql logo' />
-						<img src={heroku} alt='heroku logo' />
+						<img src={netlify} alt='netlify logo' />
 					</div>
 
 					<div className='project-button-container'>
-						<button>read more</button>
-						<button>project live</button>
+						<Link to='/projects/personalwebsite'>
+							<button>read more</button>
+						</Link>
+						<button onClick={() => window.open('https://edwardphan.com', '_blank')}>project live</button>
 					</div>
 				</div>
 				<div className='project-image'>
