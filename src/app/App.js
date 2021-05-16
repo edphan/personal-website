@@ -6,11 +6,10 @@ import Home from '../pages/home';
 import EcommerceProject from '../pages/project-ecommerce';
 import PersonalWebsiteProject from '../pages/project-personalwebsite';
 import RedditProject from '../pages/project-reddit';
-import Projects from '../pages/projects';
+import AllProjects from '../pages/allprojects';
 import './App.css';
 import { useSelector } from 'react-redux';
 import { selectDarkmode } from '../components/darkmodeSlice';
-import AllProjects from '../pages/allprojects';
 
 function App() {
 	const darkmode = useSelector(selectDarkmode);
@@ -20,7 +19,6 @@ function App() {
 				{/* <Nav /> */}
 				<Switch>
 					<Route path='/' exact component={Home} />
-					<Route path='/projects' exact component={Projects} />
 					<Route path='/allprojects' exact component={AllProjects} />
 					<Route path='/about' exact component={About} />
 					<Route path='/projects/ecommerce' exact component={EcommerceProject} />

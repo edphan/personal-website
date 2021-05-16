@@ -6,6 +6,20 @@
 	grid-auto-rows: auto;
 }
 
+.projects-page-title {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-size: 2rem;
+}
+
+.projects-page-title span {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #3371db;
+}
+
 .individual-project-container {
 	grid-column-start: 2;
 	grid-column-end: 3;

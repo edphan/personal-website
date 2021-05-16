@@ -15,6 +15,10 @@ function AllProjects() {
 	const darkmode = useSelector(selectDarkmode);
 	return (
 		<div className='allprojects-page-container'>
+			<h2 className='projects-page-title'>
+				<span>&#47;&#47;</span> projects
+			</h2>
+
 			<div className='individual-project-container'>
 				<div className='project-left'>
 					<h3>e-commerce</h3>
