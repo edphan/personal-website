@@ -1,7 +1,7 @@
 .nav-container {
 	width: 100%;
 	min-height: 45px;
-	max-width: 1200px;
+	max-width: 900px;
 	position: sticky;
 	top: 0;
 	right: 0;
@@ -33,7 +33,7 @@
 
 .nav-container-dark {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 900px;
 	min-height: 45px;
 	position: sticky;
 	top: 0;
