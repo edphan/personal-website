@@ -8,28 +8,17 @@ import { selectDarkmode } from './darkmodeSlice';
 function Nav() {
 	const darkmode = useSelector(selectDarkmode);
 	return (
-		<div className={darkmode ? 'nav-container-dark' : 'nav-container'}>
-			<div className='nav-content-container'>
-				<div className={darkmode ? 'nav-edwardphan-dark' : 'nav-edwardphan'}>
-					<Link to='/' className='nav-edwardphan'>
-						<p className={darkmode ? 'nav-edwardphan-dash-dark' : 'nav-edwardphan-dash'}>&#47;&#47; </p>
-						<p className={darkmode ? 'nav-edwardphan-text-dark' : 'nav-edwardphan-text'}>Edward Phan</p>
-					</Link>
-				</div>
-
-				<div className={darkmode ? 'nav-pages-dark' : 'nav-pages'}>
-					<Link to='/projects' className='nav-pages'>
-						<p>projects</p>
-					</Link>
-					<Link to='/about' className='nav-pages'>
-						<p>about</p>
-					</Link>
-				</div>
-
-				<div className='nav-darkmode'>
-					<DarkMode />
-				</div>
-			</div>
+		<div>
+			<button>
+				<Link to='/'>// Edward Phan</Link>
+			</button>
+			<button>
+				<Link to='/projects'>projects</Link>
+			</button>
+			<button>
+				<Link to='/about'>about</Link>
+			</button>
+			<DarkMode />
 		</div>
 	);
 }
