@@ -21,7 +21,7 @@ export default function DarkMode() {
 				onClick={(e) => {
 					handleChange(e);
 				}}>
-				<img src={isDarkmode ? darkmode : lightmode} alt='light mode switch' />
+				<img src={isDarkmode ? lightmode : darkmode} alt='light mode switch' />
 			</button>
 		</div>
 	);
