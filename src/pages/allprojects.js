@@ -20,7 +20,7 @@ function AllProjects() {
 				<span>&#47;&#47;</span> projects
 			</h2>
 
-			<div className='individual-project-container'>
+			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>e-commerce</h3>
 					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>

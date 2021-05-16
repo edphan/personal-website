@@ -1,16 +1,15 @@
 import React from 'react';
 import './styles/nav.css';
-import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import DarkMode from '../components/darkmode';
-import { selectDarkmode } from './darkmodeSlice';
+// import { selectDarkmode } from './darkmodeSlice';
+// import { useSelector } from 'react-redux';
 
 function Nav() {
-	const darkmode = useSelector(selectDarkmode);
 	return (
 		<div>
 			<button>
-				<Link to='/'>// Edward Phan</Link>
+				<Link to='/'>&#47;&#47; Edward Phan</Link>
 			</button>
 			<button>
 				<Link to='/projects'>projects</Link>
