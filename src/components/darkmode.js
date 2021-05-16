@@ -1,6 +1,9 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import { toggle } from './darkmodeSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectDarkmode, toggle } from './darkmodeSlice';
+import lightmode from '../images/icons/light-mode.png';
+import darkmode from '../images/icons/dark-mode.png';
+import '../components/styles/darkmode.css';
 
 export default function DarkMode() {
 	const dispatch = useDispatch();
@@ -10,13 +13,16 @@ export default function DarkMode() {
 		dispatch(toggle());
 	};
 
+	const isDarkmode = useSelector(selectDarkmode);
+
 	return (
-		<div>
-			<label className='form-switch'>
-				<input type='checkbox' id='form-switch' onChange={(e) => handleChange(e)}></input>
-				<i></i>
-				<label className='dark-mode-label'>dark mode</label>
-			</label>
+		<div class='darkmode-button'>
+			<button
+				onClick={(e) => {
+					handleChange(e);
+				}}>
+				<img src={isDarkmode ? darkmode : lightmode} alt='light mode switch' />
+			</button>
 		</div>
 	);
 }

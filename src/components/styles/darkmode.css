@@ -1,0 +1,12 @@
+.darkmode-button {
+	align-self: flex-end;
+}
+
+.darkmode-button button {
+	height: 35px;
+	background-color: transparent;
+}
+
+.darkmode-button img {
+	height: 100%;
+}
