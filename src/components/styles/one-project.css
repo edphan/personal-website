@@ -45,8 +45,11 @@
 }
 
 .project-live-code-button {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-self: center;
+	justify-items: center;
 	align-items: center;
-	justify-content: center;
 }
 
 .project-live-code-button button {
@@ -118,8 +121,11 @@
 }
 
 .project-live-code-button-dark {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-self: center;
+	justify-items: center;
 	align-items: center;
-	justify-content: center;
 }
 
 .project-live-code-button-dark button {
