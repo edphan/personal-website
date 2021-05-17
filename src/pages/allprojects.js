@@ -66,7 +66,7 @@ function AllProjects() {
 			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>personal website</h3>
-					<p>A pure React and Redux website that focuses on aesthetic and user usability (with darkmode).</p>
+					<p>A pure React and Redux website that focuses on user usability and responsiveness for a range of devices.</p>
 					<div className='project-tech-logos'>
 						<img src={react} alt='react logo' />
 						<img src={node} alt='node logo' />
