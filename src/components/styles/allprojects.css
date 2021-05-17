@@ -64,6 +64,15 @@
 	margin: 7px;
 }
 
+.project-button-container button:hover {
+	background-color: #3b77ea;
+	color: #fff;
+}
+
+.project-button-container button:active {
+	background-color: #0071e3;
+}
+
 .project-image {
 	grid-column-start: 4;
 	grid-column-end: 6;
