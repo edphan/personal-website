@@ -23,7 +23,9 @@ function AllProjects() {
 			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>e-commerce</h3>
-					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
+					<p>
+						A full-stack project, completes with front-end, server, and a database. This is a multi-functions e-commerce website inspired by the Apple Store.
+					</p>
 					<div className='project-tech-logos'>
 						<img src={react} alt='react logo' />
 						<img src={node} alt='node logo' />
@@ -45,7 +47,7 @@ function AllProjects() {
 			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>reddit-client</h3>
-					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
+					<p>A front-end client that fetches data from Reddit API to display posts, comments, different subreddits, and with search function</p>
 					<div className='project-tech-logos'>
 						<img src={react} alt='react logo' />
 						<img src={redux} alt='redux logo' />
@@ -66,7 +68,7 @@ function AllProjects() {
 			<div className={darkmode ? 'individual-project-container-dark' : 'individual-project-container'}>
 				<div className='project-left'>
 					<h3>personal website</h3>
-					<p>A full-stack project, completes with front-end, server, and a database. This is an e-commerce website inspired by the Apple Store.</p>
+					<p>A pure React and Redux website that focuses on aesthetic and user usability (with darkmode!).</p>
 					<div className='project-tech-logos'>
 						<img src={react} alt='react logo' />
 						<img src={node} alt='node logo' />
