@@ -39,10 +39,7 @@ function RedditProject() {
 					- Search posts<br></br>- Fetch to different subreddits<br></br>- Fetch to hot/best/new posts<br></br>
 				</p>
 				<h3>What were the difficulties:</h3>
-				<p>
-					- Authentication and authorization, and what method to use to best ensure security - Connect server to PostgreSQL - Config for development and for
-					production - Use Heroku to host all front-end and back-ends
-				</p>
+				<p></p>
 				<h3>How did I overcome:</h3>
 				<p>
 					This was the first project where I had to learn to read API documents to properly fetch data from the API. Though this was undocumented, I used
