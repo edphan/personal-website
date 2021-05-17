@@ -37,25 +37,25 @@ function PersonalWebsiteProject() {
 				</p>
 				<h3>What were the difficulties:</h3>
 				<p>
-					-One of the biggest difficulties was ensuring the website looks great on multiple mobile devices with varying screen sizes. I had difficulties where
-					the website would looked great when experimented with responsiveness using desktop and testing websites, but broke on actual mobile devices. Another
-					challenge was that some of the pages was designed for desktop and they were difficult to make into mobile friendly.
+					-One of the most significant difficulties was ensuring the website looks great on multiple mobile devices with varying screen sizes. I had
+					difficulties where the website looked great when I experimented with responsiveness using desktop and testing websites but broke on actual mobile
+					devices. Another challenge was that some of the pages were designed for desktop and were challenging to make mobile friendly.
 				</p>
 				<p>
-					-The second challenges was implementing dark mode. I have had experience with dark mode with the first version of the personal portfolio website.
+					-The second challenge was implementing dark mode. I have had experience with dark mode with the first version of the personal portfolio website.
 					However, that version was built entirely on HTML and CSS. I had to re-learn how to do dark mode in React. I didn't want to implement something I only
-					understand vaguely, so I chose to experiment on my own so that I truly understand the dark mode implementation.
+					understand vaguely, so I chose to experiment on my own to truly understand the dark mode implementation.
 				</p>
 				<h3>How did I overcome:</h3>
 				<p>
-					- For responsiveness, I found that it was not enough just to test it on desktop and testing websites, I had to physically get mobile devices to test
-					the website as well. This step verifies and ensure that the website actually looks good on mobile devices. I also had to redo some of the pages
-					because they were so deeply styled for large screens. This was a blessing in disguise as I was able to simplify the components much more now that I
-					did it the second time. Components are simpler, this makes maintenance and readability much easier.
+					- For responsiveness, I found that it was not enough to test it on desktop and testing websites; I had to physically get mobile devices to test the
+					website. This step verifies and ensures that the website actually looks good on mobile devices. I also had to redo some of the pages because they were
+					so profoundly styled for large screens. This was a blessing in disguise as I was able to simplify the components much more now than I did it the
+					second time. Components are simpler; this makes maintenance and readability much more manageable.
 				</p>
 				<p>
-					- As for dark mode, I did many experiments to see which one is simple and effective. I finally came to a method that was a perfect fit for my criteria
-					- to use Redux store for state management, and to use that state to change the component stylings accordingly.
+					- As for dark mode, I did many experiments to see which one is effective and maintainable. I finally came to a method that was a perfect fit for my
+					criteria - to use Redux store for state management, and to use that state to change the component stylings accordingly.
 				</p>
 				<h3>Technologies used:</h3>
 				<p>React for UI, Redux for dark mode state management. Netlify to host the website.</p>

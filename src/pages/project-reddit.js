@@ -30,9 +30,9 @@ function RedditProject() {
 			<div className={darkmode ? 'project-text-dark' : 'project-text'}>
 				<h3>Description:</h3>
 				<p>
-					This is a reddit client. It demonstrate the ability to use API call to Reddit’s undocumented JSON API, and display the response. I chose to make the
-					client a close resemblance to the reddit website with navigation on the right and search bar on top. This was to reduce the user’s learning curve as
-					some users are familiarized with reddit navigation style.
+					This is a Reddit client. It demonstrates the use of API call to Reddit’s undocumented JSON API and displays the response. I chose to make the client a
+					close resemblance to the Reddit website with navigation on the right and search bar on top. This was to reduce the user’s learning curve as some users
+					are familiarized with the Reddit navigation style.
 				</p>
 				<h3>Notable features:</h3>
 				<p>
@@ -41,14 +41,14 @@ function RedditProject() {
 				</p>
 				<h3>What were the difficulties:</h3>
 				<p>
-					There were several main challenges for this project. The first was finding out how to make appropriate API calls to get the content that I want.
-					Second was how to make these API calls using async thunk. The third was that finding out the data being sent back.
+					There were several main challenges for this project. The first was finding out how to make appropriate API calls to get the content that I want. The
+					second was how to make these API calls using async thunk. The third was that finding out the data being sent back.
 				</p>
 				<h3>How did I overcome:</h3>
 				<p>
 					This was the first project where I had to learn to read API documents to properly fetch data from the API. Though this was undocumented, I used
-					Postman to experiment with the API calls to understand what kind of data that came back. I also learnt to use Redux’s toolkit to create async thunks
-					to store fetched data into states to render.
+					Postman to experiment with the API calls to understand what kind of data came back. I also learnt to use Redux’s toolkit to create async thunks to
+					store fetched data into states to render.
 				</p>
 				<h3>Technologies used:</h3>
 				<p>React for UI, Redux for state management, and Fetch API to fetch data. Netlify to host the website</p>
