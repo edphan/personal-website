@@ -36,10 +36,14 @@ function RedditProject() {
 				</p>
 				<h3>Notable features:</h3>
 				<p>
-					- Search posts<br></br>- Fetch to different subreddits<br></br>- Fetch to hot/best/new posts<br></br>
+					- Search posts<br></br>- Fetch and display different subreddits posts<br></br>- Fetch and display hot/best/new posts<br></br>- Fetch and display
+					comments for a post<br></br>
 				</p>
 				<h3>What were the difficulties:</h3>
-				<p></p>
+				<p>
+					There were several main challenges for this project. The first was finding out how to make appropriate API calls to get the content that I want.
+					Second was how to make these API calls using async thunk. The third was that finding out the data being sent back.
+				</p>
 				<h3>How did I overcome:</h3>
 				<p>
 					This was the first project where I had to learn to read API documents to properly fetch data from the API. Though this was undocumented, I used

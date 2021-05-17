@@ -58,7 +58,7 @@ function PersonalWebsiteProject() {
 					- to use Redux store for state management, and to use that state to change the component stylings accordingly.
 				</p>
 				<h3>Technologies used:</h3>
-				<p>React for UI, Redux for dark mode state management. Hosted on Netlify.</p>
+				<p>React for UI, Redux for dark mode state management. Netlify to host the website.</p>
 			</div>
 		</div>
 	);

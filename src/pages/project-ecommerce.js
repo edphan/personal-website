@@ -36,7 +36,8 @@ function EcommerceProject() {
 				</p>
 				<h3>Notable features:</h3>
 				<p>
-					- Log in, log out, register <br></br>- Add items to bag, place orders <br></br>- View protected profile page, view previous orders
+					- Authentication and Authorization (Log in, log out, register, view protected profile page) <br></br>- CRUD Functionality (View previous orders, place
+					orders) <br></br>
 				</p>
 				<h3>What were the difficulties:</h3>
 				<p>
