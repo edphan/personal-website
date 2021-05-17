@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c24590d.chunk.css",
-    "main.js": "/static/js/main.3edf5878.chunk.js",
-    "main.js.map": "/static/js/main.3edf5878.chunk.js.map",
+    "main.css": "/static/css/main.f7c1bab3.chunk.css",
+    "main.js": "/static/js/main.5d00be80.chunk.js",
+    "main.js.map": "/static/js/main.5d00be80.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d923c3a5.js",
     "runtime-main.js.map": "/static/js/runtime-main.d923c3a5.js.map",
     "static/js/2.1e264575.chunk.js": "/static/js/2.1e264575.chunk.js",
     "static/js/2.1e264575.chunk.js.map": "/static/js/2.1e264575.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0c24590d.chunk.css.map": "/static/css/main.0c24590d.chunk.css.map",
+    "static/css/main.f7c1bab3.chunk.css.map": "/static/css/main.f7c1bab3.chunk.css.map",
     "static/js/2.1e264575.chunk.js.LICENSE.txt": "/static/js/2.1e264575.chunk.js.LICENSE.txt",
     "static/media/Octocat.363cb5ed.png": "/static/media/Octocat.363cb5ed.png",
     "static/media/aboutdark.2eb8e722.png": "/static/media/aboutdark.2eb8e722.png",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.d923c3a5.js",
     "static/js/2.1e264575.chunk.js",
-    "static/css/main.0c24590d.chunk.css",
-    "static/js/main.3edf5878.chunk.js"
+    "static/css/main.f7c1bab3.chunk.css",
+    "static/js/main.5d00be80.chunk.js"
   ]
 }
