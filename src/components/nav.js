@@ -10,9 +10,11 @@ function Nav() {
 	return (
 		<div className={darkmode ? 'nav-container-dark' : 'nav-container'}>
 			<Link to='/'>
-				<button>
-					<span>&#47;&#47;</span> Edward Phan
-				</button>
+				<div className='logo-button'>
+					<button>
+						<span>&#47;&#47;</span> Edward Phan
+					</button>
+				</div>
 			</Link>
 
 			<Link to='/projects'>

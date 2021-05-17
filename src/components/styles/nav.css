@@ -23,12 +23,21 @@
 	font-size: 1.2rem;
 	font-weight: bold;
 	font-family: 'Poppins', sans-serif;
+	color: #6c727f;
+}
+
+.nav-container button:hover {
+	color: #222;
 }
 
 .nav-container span {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	color: var(--dash-color);
+}
+
+.logo-button button {
+	color: #222;
 }
 
 .nav-container-dark {
@@ -57,6 +66,10 @@
 	font-weight: bold;
 	color: rgba(255, 255, 255, 0.87);
 	font-family: 'Poppins', sans-serif;
+}
+
+.nav-container-dark button:hover {
+	color: #fff;
 }
 
 .nav-container-dark span {
