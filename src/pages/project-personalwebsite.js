@@ -36,7 +36,7 @@ function PersonalWebsiteProject() {
 				</p>
 				<h3>Notable features:</h3>
 				<p>
-					- Log in, log out, register <br></br>- Add items to bag, place orders <br></br>- View protected profile page, view previous orders
+					- Darkmode! <br></br>- Responsiveness, able to looks great on variety of devices <br></br>
 				</p>
 				<h3>What were the difficulties:</h3>
 				<p>
