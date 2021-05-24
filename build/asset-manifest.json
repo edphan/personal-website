@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.38a74614.chunk.css",
-    "main.js": "/static/js/main.780a1edb.chunk.js",
-    "main.js.map": "/static/js/main.780a1edb.chunk.js.map",
+    "main.js": "/static/js/main.8fbd60b7.chunk.js",
+    "main.js.map": "/static/js/main.8fbd60b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d923c3a5.js",
     "runtime-main.js.map": "/static/js/runtime-main.d923c3a5.js.map",
     "static/js/2.1e264575.chunk.js": "/static/js/2.1e264575.chunk.js",
@@ -11,12 +11,12 @@
     "static/css/main.38a74614.chunk.css.map": "/static/css/main.38a74614.chunk.css.map",
     "static/js/2.1e264575.chunk.js.LICENSE.txt": "/static/js/2.1e264575.chunk.js.LICENSE.txt",
     "static/media/Octocat.363cb5ed.png": "/static/media/Octocat.363cb5ed.png",
-    "static/media/aboutdark.2eb8e722.png": "/static/media/aboutdark.2eb8e722.png",
+    "static/media/aboutdark.2750c38d.png": "/static/media/aboutdark.2750c38d.png",
     "static/media/dark-mode.bf78f62a.png": "/static/media/dark-mode.bf78f62a.png",
     "static/media/email_3.a2f2146f.png": "/static/media/email_3.a2f2146f.png",
     "static/media/homepage1.db38ad05.png": "/static/media/homepage1.db38ad05.png",
     "static/media/homepage3.52a2db18.png": "/static/media/homepage3.52a2db18.png",
-    "static/media/homepagedark.e154d06b.png": "/static/media/homepagedark.e154d06b.png",
+    "static/media/homepagedark.f913e334.png": "/static/media/homepagedark.f913e334.png",
     "static/media/light-mode.8b49bce8.png": "/static/media/light-mode.8b49bce8.png",
     "static/media/login.59ec1c1e.png": "/static/media/login.59ec1c1e.png",
     "static/media/mobileView.2d27ef42.png": "/static/media/mobileView.2d27ef42.png",
@@ -24,7 +24,7 @@
     "static/media/nodejs1.d99c5dec.png": "/static/media/nodejs1.d99c5dec.png",
     "static/media/post.fe27bf4c.png": "/static/media/post.fe27bf4c.png",
     "static/media/profile.caa157e2.png": "/static/media/profile.caa157e2.png",
-    "static/media/projectsdark.0c3afd00.png": "/static/media/projectsdark.0c3afd00.png",
+    "static/media/projectsdark.24014282.png": "/static/media/projectsdark.24014282.png",
     "static/media/react1.78e61144.png": "/static/media/react1.78e61144.png",
     "static/media/redux.b3b939c6.png": "/static/media/redux.b3b939c6.png"
   },
@@ -32,6 +32,6 @@
     "static/js/runtime-main.d923c3a5.js",
     "static/js/2.1e264575.chunk.js",
     "static/css/main.38a74614.chunk.css",
-    "static/js/main.780a1edb.chunk.js"
+    "static/js/main.8fbd60b7.chunk.js"
   ]
 }
