@@ -38,8 +38,9 @@ function About() {
 					<a href='https://www.linkedin.com/in/trungngocphan/'>
 						<img src={linkedin} alt='linkedin logo' />
 					</a>
-
-					<img src={email} alt='email logo' />
+					<a href='mailto:trungngocphan@gmail.com'>
+						<img src={email} alt='email logo' />
+					</a>
 				</div>
 			</div>
 		</div>
